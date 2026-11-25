@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-projects-tools-detect"
+description = "Enables the projects_tools_detect command without any pre-configured scope."
+commands.allow = ["projects_tools_detect"]
+
+[[permission]]
+identifier = "deny-projects-tools-detect"
+description = "Denies the projects_tools_detect command without any pre-configured scope."
+commands.deny = ["projects_tools_detect"]

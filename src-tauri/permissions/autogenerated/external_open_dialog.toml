@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-external-open-dialog"
+description = "Enables the external_open_dialog command without any pre-configured scope."
+commands.allow = ["external_open_dialog"]
+
+[[permission]]
+identifier = "deny-external-open-dialog"
+description = "Denies the external_open_dialog command without any pre-configured scope."
+commands.deny = ["external_open_dialog"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-agents-detect"
+description = "Enables the agents_detect command without any pre-configured scope."
+commands.allow = ["agents_detect"]
+
+[[permission]]
+identifier = "deny-agents-detect"
+description = "Denies the agents_detect command without any pre-configured scope."
+commands.deny = ["agents_detect"]

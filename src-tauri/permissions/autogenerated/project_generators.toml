@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-project-generators"
+description = "Enables the project_generators command without any pre-configured scope."
+commands.allow = ["project_generators"]
+
+[[permission]]
+identifier = "deny-project-generators"
+description = "Denies the project_generators command without any pre-configured scope."
+commands.deny = ["project_generators"]

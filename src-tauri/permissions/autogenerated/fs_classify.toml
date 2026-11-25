@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-fs-classify"
+description = "Enables the fs_classify command without any pre-configured scope."
+commands.allow = ["fs_classify"]
+
+[[permission]]
+identifier = "deny-fs-classify"
+description = "Denies the fs_classify command without any pre-configured scope."
+commands.deny = ["fs_classify"]

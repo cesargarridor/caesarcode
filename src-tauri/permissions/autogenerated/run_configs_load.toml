@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-run-configs-load"
+description = "Enables the run_configs_load command without any pre-configured scope."
+commands.allow = ["run_configs_load"]
+
+[[permission]]
+identifier = "deny-run-configs-load"
+description = "Denies the run_configs_load command without any pre-configured scope."
+commands.deny = ["run_configs_load"]

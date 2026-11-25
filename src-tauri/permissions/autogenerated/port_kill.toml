@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-port-kill"
+description = "Enables the port_kill command without any pre-configured scope."
+commands.allow = ["port_kill"]
+
+[[permission]]
+identifier = "deny-port-kill"
+description = "Denies the port_kill command without any pre-configured scope."
+commands.deny = ["port_kill"]

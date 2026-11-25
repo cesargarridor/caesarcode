@@ -1,0 +1,20 @@
+/** Colores de iconos aproximados a IntelliJ New UI (dark). Fuente única (TS puro, sin React). */
+export const ICON_COLORS = {
+  class: '#548AF7',
+  interface: '#5FB865',
+  enum: '#E5A541',
+  record: '#B07EE6',
+  annotation: '#5FB865',
+  exception: '#E06C75',
+  kotlin: '#B07EE6',
+  spring: '#6DB33F',
+  run: '#5FB865',
+  testFail: '#E06C75',
+  panel: '#161616',
+  sourceRoot: '#548AF7',
+  testRoot: '#5FB865',
+  resources: '#E5A541',
+  testResources: '#5FB865',
+  generated: '#548AF7',
+  package: '#B8BCC4',
+} as const;

@@ -1,0 +1,111 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "CaesarCode",
+  "version": "0.1.0",
+  "identifier": "com.caesarcode.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "CaesarCode",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 900,
+        "minHeight": 560,
+        "backgroundColor": "#09090b",
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; connect-src 'self' ipc: http://ipc.localhost; style-src 'self' 'unsafe-inline'; img-src 'self' data: asset: http://asset.localhost; media-src 'self' asset: http://asset.localhost; frame-src 'self' asset: http://asset.localhost; object-src 'none'; font-src 'self' data:; script-src 'self'",
+      "assetProtocol": {
+        "enable": true,
+        "scope": []
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "fileAssociations": [
+      {
+        "ext": [
+          "txt",
+          "log",
+          "md",
+          "markdown"
+        ],
+        "name": "Text",
+        "role": "Editor"
+      },
+      {
+        "ext": [
+          "java",
+          "py",
+          "ts",
+          "tsx",
+          "js",
+          "jsx",
+          "rs",
+          "go",
+          "kt",
+          "sql",
+          "sh"
+        ],
+        "name": "Source",
+        "role": "Editor"
+      },
+      {
+        "ext": [
+          "json",
+          "yml",
+          "yaml",
+          "xml",
+          "toml",
+          "properties",
+          "env",
+          "ini"
+        ],
+        "name": "Config",
+        "role": "Editor"
+      },
+      {
+        "ext": [
+          "csv",
+          "tsv",
+          "xlsx",
+          "xls",
+          "ods"
+        ],
+        "name": "Tabular",
+        "role": "Editor"
+      }
+    ],
+    "createUpdaterArtifacts": true
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDAwNkNCQzZFRkEwMzJGRUEKUldUcUx3UDZicnhzQU5VNXFBUVEzUWlQK2ZkazNyY3ByOXV4d01SRmpwYUd2NWhQRml5R0lKcUEK",
+      "endpoints": [
+        "https://github.com/cesargarridor/caesarcode/releases/latest/download/latest.json"
+      ],
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  }
+}

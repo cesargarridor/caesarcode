@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-git-repos-summary"
+description = "Enables the git_repos_summary command without any pre-configured scope."
+commands.allow = ["git_repos_summary"]
+
+[[permission]]
+identifier = "deny-git-repos-summary"
+description = "Denies the git_repos_summary command without any pre-configured scope."
+commands.deny = ["git_repos_summary"]

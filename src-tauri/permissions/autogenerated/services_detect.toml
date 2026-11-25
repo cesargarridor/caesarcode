@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-services-detect"
+description = "Enables the services_detect command without any pre-configured scope."
+commands.allow = ["services_detect"]
+
+[[permission]]
+identifier = "deny-services-detect"
+description = "Denies the services_detect command without any pre-configured scope."
+commands.deny = ["services_detect"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-run-templates"
+description = "Enables the run_templates command without any pre-configured scope."
+commands.allow = ["run_templates"]
+
+[[permission]]
+identifier = "deny-run-templates"
+description = "Denies the run_templates command without any pre-configured scope."
+commands.deny = ["run_templates"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-services-load"
+description = "Enables the services_load command without any pre-configured scope."
+commands.allow = ["services_load"]
+
+[[permission]]
+identifier = "deny-services-load"
+description = "Denies the services_load command without any pre-configured scope."
+commands.deny = ["services_load"]

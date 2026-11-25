@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-lsp-subscribe"
+description = "Enables the lsp_subscribe command without any pre-configured scope."
+commands.allow = ["lsp_subscribe"]
+
+[[permission]]
+identifier = "deny-lsp-subscribe"
+description = "Denies the lsp_subscribe command without any pre-configured scope."
+commands.deny = ["lsp_subscribe"]

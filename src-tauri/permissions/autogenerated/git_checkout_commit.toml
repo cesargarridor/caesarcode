@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-git-checkout-commit"
+description = "Enables the git_checkout_commit command without any pre-configured scope."
+commands.allow = ["git_checkout_commit"]
+
+[[permission]]
+identifier = "deny-git-checkout-commit"
+description = "Denies the git_checkout_commit command without any pre-configured scope."
+commands.deny = ["git_checkout_commit"]

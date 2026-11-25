@@ -1,0 +1,19 @@
+plugins {
+    groovy
+    application
+}
+
+group = "{{group_id}}"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.apache.groovy:groovy:4.0.23")
+}
+
+application {
+    mainClass.set("{{package}}.Main")
+}

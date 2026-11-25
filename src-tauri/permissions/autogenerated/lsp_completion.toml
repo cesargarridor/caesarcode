@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-lsp-completion"
+description = "Enables the lsp_completion command without any pre-configured scope."
+commands.allow = ["lsp_completion"]
+
+[[permission]]
+identifier = "deny-lsp-completion"
+description = "Denies the lsp_completion command without any pre-configured scope."
+commands.deny = ["lsp_completion"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-services-subscribe"
+description = "Enables the services_subscribe command without any pre-configured scope."
+commands.allow = ["services_subscribe"]
+
+[[permission]]
+identifier = "deny-services-subscribe"
+description = "Denies the services_subscribe command without any pre-configured scope."
+commands.deny = ["services_subscribe"]
